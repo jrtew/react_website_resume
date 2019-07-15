@@ -5,10 +5,10 @@ const contentArea = (props) => {
     const theme = props.theme;
     
     return (
-        <div className={styles.theme}>
-            <div className={styles.sectionContent} id={props.id}>
+        <div className={styles.sectionContent} id={props.id}>
+            <div className={styles.innerDiv}>
                 <h1>{props.title}</h1>
-                <p>{props.content}</p>
+            {props.content}
             </div>
         </div>
     )

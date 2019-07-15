@@ -1,6 +1,6 @@
 .nav {
     /* background-color: var(--off-white); */
-    background-color: white;
+    background-color: black;
     position: sticky;
     top: 0px;
     width: 100%;
@@ -10,11 +10,11 @@
   }
   
   .navLogo {
-    /* height: 60px;
-    width: 60px; */
+    color: whitesmoke;
   }
   
   .navLogo:hover {
+    color: lightsteelblue;
     cursor: pointer;
   }
   
@@ -31,15 +31,15 @@
   .navItem {
     display: inline;
     margin-left: 2rem;
-    color: #333;
+    color: whitesmoke;
   }
   
   .navItem:hover {
-    color: black;
+    color: lightsteelblue;
     cursor: pointer;
   }
 
   .navItem > .active {
-      color: red;
-      border-bottom: 1px solid #333;
+      color: lightsteelblue;
+      border-bottom: 1px solid whitesmoke;
   }

@@ -1,0 +1,14 @@
+.sectionContent {
+    color: whitesmoke;
+    padding: 32px 16px 72px 16px;
+}
+
+.innerDiv {
+    width: 65%;
+    margin: 16px auto;
+    text-align: center;
+}
+
+.sectionContent a {
+    color: lightslategray;
+}

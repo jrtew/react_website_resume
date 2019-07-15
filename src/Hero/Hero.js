@@ -5,9 +5,8 @@ const hero = (props) => {
     return (
         <div className={styles.heroImage}>
             <div className={styles.heroText}>
-                <h1>Ross</h1>
-                <h1>Tew</h1>
-                <p>Software Engineer</p>
+                <h1 className={styles.firstName} >Ross</h1>
+                <h1 className={styles.lastName} >Tew</h1>
             </div>
         </div>
     )

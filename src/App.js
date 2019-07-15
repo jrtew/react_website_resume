@@ -3,7 +3,10 @@ import styles from './App.module.css';
 import Navbar from './Navbar/Navbar';
 import Hero from './Hero/Hero';
 import ContentArea from './ContentArea/ContentArea';
-import dummyText from './DummyText';
+import Footer from './Footer/Footer';
+import about from './Content/About';
+import resume from './Content/Resume';
+import work from './Content/Work';
 
 class App extends Component {
   state = {
@@ -12,11 +15,9 @@ class App extends Component {
 
   render() {
     const contents = [
-      { title: 'Section 1', id: 'section1', content: dummyText },
-      { title: 'Section 2', id: 'section2', content: dummyText },
-      { title: 'Section 3', id: 'section3', content: dummyText },
-      { title: 'Section 4', id: 'section4', content: dummyText },
-      { title: 'Section 5', id: 'section5', content: dummyText },
+      { title: 'About Me', id: 'about1', content: about },
+      { title: 'Resume', id: 'resume1', content: resume },
+      { title: 'My Work', id: 'work1', content: work }
     ]
 
     const allContent = (
@@ -37,6 +38,7 @@ class App extends Component {
         <Navbar theme={this.state.theme} contents={contents} />
         <Hero />
         {allContent}
+        <Footer />
       </div>
     );
   }
