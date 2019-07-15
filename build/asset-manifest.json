@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ross_tew/static/css/main.ebe6936d.chunk.css",
+    "main.js": "/ross_tew/static/js/main.e6037a46.chunk.js",
+    "main.js.map": "/ross_tew/static/js/main.e6037a46.chunk.js.map",
+    "runtime~main.js": "/ross_tew/static/js/runtime~main.cdc99766.js",
+    "runtime~main.js.map": "/ross_tew/static/js/runtime~main.cdc99766.js.map",
+    "static/js/2.aebc2d2e.chunk.js": "/ross_tew/static/js/2.aebc2d2e.chunk.js",
+    "static/js/2.aebc2d2e.chunk.js.map": "/ross_tew/static/js/2.aebc2d2e.chunk.js.map",
+    "index.html": "/ross_tew/index.html",
+    "precache-manifest.f326b25dcb8e66ca40bcaba3831806ff.js": "/ross_tew/precache-manifest.f326b25dcb8e66ca40bcaba3831806ff.js",
+    "service-worker.js": "/ross_tew/service-worker.js",
+    "static/css/main.ebe6936d.chunk.css.map": "/ross_tew/static/css/main.ebe6936d.chunk.css.map"
+  }
+}
